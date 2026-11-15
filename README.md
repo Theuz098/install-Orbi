@@ -8,8 +8,6 @@ Ele mostra o que os seus agentes do Claude Code estão fazendo, conversa com voc
 [![Baixar a versão mais recente](https://img.shields.io/github/v/release/Theuz098/install-Orbi?label=baixar&style=for-the-badge&color=4f7cff)](https://github.com/Theuz098/install-Orbi/releases/latest)
 &nbsp;
 ![Windows](https://img.shields.io/badge/Windows-10%20%7C%2011-0078d4?style=for-the-badge&logo=windows)
-&nbsp;
-![Linux](https://img.shields.io/badge/Linux-x64-333?style=for-the-badge&logo=linux&logoColor=white)
 
 </div>
 
@@ -37,28 +35,6 @@ O Orbi some sozinho em tela cheia e com a tela bloqueada. Ele também não apare
 2. Abra o arquivo. A instalação leva poucos segundos e não pede administrador. Quando termina, o Orbi abre sozinho.
 3. Se aparecer **"O Windows protegeu o computador"**, clique em **Mais informações › Executar assim mesmo**. O aviso aparece porque o instalador ainda não tem certificado de assinatura.
 
-### 🐧 Linux (x64)
-
-**AppImage (recomendado, porque se atualiza sozinho):**
-
-```bash
-chmod +x Orbi-*-linux.AppImage
-./Orbi-*-linux.AppImage
-```
-
-- No **Ubuntu 22.04 ou mais novo**, o AppImage precisa do FUSE 2: `sudo apt install libfuse2t64` (ou `libfuse2` no 22.04).
-- Se ele não abrir por causa do sandbox (comum no Ubuntu 24.04+), rode com `--no-sandbox`.
-- No **Ubuntu 26.04**, se aparecer *"Cannot mount AppImage"* mesmo com o FUSE instalado, abra assim:
-  `APPIMAGE_EXTRACT_AND_RUN=1 ./Orbi-*-linux.AppImage`
-
-**.deb (instalação manual, sem atualização automática):**
-
-```bash
-sudo apt install ./Orbi-<versão>-linux.deb
-```
-
-O Orbi no Linux também precisa de um chaveiro (gnome-keyring ou KWallet) para guardar senhas e chaves. Para o ícone na bandeja, o GNOME precisa da extensão **AppIndicator**. Algumas funções existem só no Windows e aparecem marcadas como **"Só no Windows"** nas Configurações.
-
 ---
 
 ## Primeiros passos
@@ -74,19 +50,15 @@ Atalhos: `Ctrl+Alt+O` abre o painel e `Ctrl+Alt+V` (segurando) fala com o mascot
 
 ## Atualizações
 
-O Orbi instalado (o `.exe` no Windows ou o AppImage no Linux) procura versões novas neste repositório e se atualiza sozinho. Não precisa de conta. Quando uma versão nova chega, ele espera você terminar o que está fazendo, instala em silêncio e abre de novo.
+O Orbi instalado procura versões novas neste repositório e se atualiza sozinho. Não precisa de conta. Quando uma versão nova chega, ele espera você terminar o que está fazendo, instala em silêncio e abre de novo.
 
 ## Privacidade
 
-O que o Orbi guarda, por quanto tempo e como apagar tudo está em **Configurações › Privacidade**, dentro do app. Os dados ficam no seu computador:
-
-- **Windows:** `%APPDATA%\Orbi`
-- **Linux:** `~/.config/Orbi`
+O que o Orbi guarda, por quanto tempo e como apagar tudo está em **Configurações › Privacidade**, dentro do app. Os dados ficam no seu computador, em `%APPDATA%\Orbi`.
 
 ## Desinstalar
 
-- **Windows:** Configurações › Apps › Orbi › Desinstalar.
-- **Linux:** apague o AppImage ou rode `sudo apt remove orbi`. Para levar junto os dados, apague também `~/.config/Orbi`.
+Configurações do Windows › Apps › Orbi › Desinstalar. Para levar junto os dados, apague também a pasta `%APPDATA%\Orbi`.
 
 ---
 
