@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="280" height="58" viewBox="0 0 280 58" role="img" aria-label="Baixar para Windows">
+  <title>Baixar para Windows</title>
+  <defs>
+    <linearGradient id="fundo" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3b76f6"/>
+      <stop offset="1" stop-color="#1d4ed8"/>
+    </linearGradient>
+  </defs>
+  <rect x="0.5" y="0.5" width="279" height="57" rx="14" fill="url(#fundo)" stroke="#1e40af"/>
+  <!-- seta para baixo -->
+  <g fill="none" stroke="#ffffff" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M38 17v17"/>
+    <path d="M31 27.5l7 7 7-7"/>
+    <path d="M29 41h18"/>
+  </g>
+  <text x="62" y="36" fill="#ffffff" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="19" font-weight="600">Baixar para Windows</text>
+</svg>
