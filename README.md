@@ -79,14 +79,14 @@ Cinco mascotes, na borda da tela ou numa ilha no topo, com fundos e paletas. Som
 
 ### Coisas que dá para pedir
 
-| 🎵 Música | ⏰ Lembretes | 📁 PC |
-| --- | --- | --- |
-| *"coloca Indecisão do Sotam"* | *"me lembra às 15h de ligar pro banco"* | *"abre o projeto do site no VS Code"* |
-| *"pausa a música"* | *"timer de 25 minutos"* | *"abre a pasta Downloads"* |
-
-| 📬 Gmail | 🐙 GitHub | 📝 Obsidian |
-| --- | --- | --- |
-| *"o que chegou de não lido?"* | *"tem review esperando por mim?"* | *"anota isso no Obsidian"* |
+| Para | Experimente dizer |
+| --- | --- |
+| 🎵 **Música** | *"coloca Indecisão do Sotam"* · *"pausa a música"* |
+| ⏰ **Lembretes** | *"me lembra às 15h de ligar pro banco"* · *"timer de 25 minutos"* |
+| 📁 **PC** | *"abre o projeto do site no VS Code"* · *"abre a pasta Downloads"* |
+| 📬 **Gmail** | *"o que chegou de não lido?"* |
+| 🐙 **GitHub** | *"tem review esperando por mim?"* |
+| 📝 **Obsidian** | *"anota isso no Obsidian"* |
 
 <br>
 
