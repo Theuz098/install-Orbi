@@ -17,8 +17,7 @@ por texto ou voz e faz pequenas tarefas no PC. Nada importante acontece sem voc�
 
 <br>
 
-[![Versão mais recente](https://img.shields.io/github/v/release/Theuz098/install-Orbi?label=vers%C3%A3o&color=2563eb)](https://github.com/Theuz098/install-Orbi/releases/latest)
-[![Data da versão](https://img.shields.io/github/release-date/Theuz098/install-Orbi?label=lan%C3%A7ada%20em&color=64748b)](https://github.com/Theuz098/install-Orbi/releases/latest)
+[![Versão mais recente](https://img.shields.io/github/v/release/Theuz098/install-Orbi?label=vers%C3%A3o%20mais%20recente&color=2563eb)](https://github.com/Theuz098/install-Orbi/releases/latest)
 
 [O que ele faz](#o-que-ele-faz) ·
 [Instalar](#instalar) ·
@@ -80,8 +79,14 @@ Cinco mascotes, na borda da tela ou numa ilha no topo, com fundos e paletas. Som
 
 ### Coisas que dá para pedir
 
-> *"coloca Indecisão do Sotam"* · *"me lembra às 15h de ligar pro banco"* · *"abre o projeto do site no VS Code"*<br>
-> *"o que chegou de não lido no Gmail?"* · *"tem review esperando por mim no GitHub?"* · *"anota isso no Obsidian"*
+| 🎵 Música | ⏰ Lembretes | 📁 PC |
+| --- | --- | --- |
+| *"coloca Indecisão do Sotam"* | *"me lembra às 15h de ligar pro banco"* | *"abre o projeto do site no VS Code"* |
+| *"pausa a música"* | *"timer de 25 minutos"* | *"abre a pasta Downloads"* |
+
+| 📬 Gmail | 🐙 GitHub | 📝 Obsidian |
+| --- | --- | --- |
+| *"o que chegou de não lido?"* | *"tem review esperando por mim?"* | *"anota isso no Obsidian"* |
 
 <br>
 
@@ -134,12 +139,12 @@ Todas são opcionais e valem para todos os mascotes. As senhas e chaves ficam gu
 
 <table>
 <tr>
-<td align="center" width="50%">
+<td align="center" valign="top" width="260">
 <img src="assets/mascote-orbi.png" width="128" alt="Orbi e Faísca"><br>
 <b>Orbi e Faísca</b><br>
 <sub>Leve e caloroso, com bom humor</sub>
 </td>
-<td align="center" width="50%">
+<td align="center" valign="top" width="260">
 <img src="assets/mascote-mar.png" width="128" alt="Mar"><br>
 <b>Mar</b><br>
 <sub>Calmo, sem pressa, mas objetivo</sub>
